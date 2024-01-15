@@ -1,0 +1,138 @@
+.img-container { 
+    display: flex;
+    justify-content: space-around;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.img { 
+    width: 500px;
+    border-radius: 50%;
+}
+.img2 { 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+ /* fetch data  */
+#fetch-data { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 45px;
+}
+.each-product {
+    width: 271px;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-self: center;
+}
+.product-img {
+    width: 258px;
+
+}
+.btn-container { 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btns {
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: tomato;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#product-id{
+    height: 30px;
+    width: 250px;
+}
+.input-cont {
+
+}
+.product-details {
+    
+}
+#product-details {
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-desc {
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: black;
+}
+/* To do list Task */
+
+#task-input {
+    height: 25px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#task-submit {
+    height: 37px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: black;
+    color: white;
+
+}
+li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.done-button{
+    margin-left: 100px;
+}
+.done-button ,.delete-button , .data-btn ,.return-btn { 
+    margin-right: 10px;
+    height: 34px;
+    width: 94px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.done-button{
+     background-color: #b2ed59;
+    
+}
+.delete-button ,.data-btn , .return-btn{
+    background: tomato;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.return-btn {
+    width: 250px;
+    height: 50px;
+}
